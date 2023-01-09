@@ -8,17 +8,17 @@ public class CashBackServiceTest {
     CashBackHackService service = new CashBackHackService();
 
     @Test
-    void shouldReturn900() {
+    public void shouldReturn900() {
 
         int amount = 1100;
 
         int actual = service.remain(amount);
         int expected = 900;
-        Assert.assertEquals(actual, expected);
+        Assert.assertEquals(expected, actual);
     }
 
-    @Test
-    void shouldReturnNothing() {
+   @Test
+    public void shouldReturnNothing() {
 
         int amount = 1000;
 
