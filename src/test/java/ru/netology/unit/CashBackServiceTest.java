@@ -17,7 +17,7 @@ public class CashBackServiceTest {
         Assert.assertEquals(actual, expected);
     }
 
-   // @Test
+    @Test
     void shouldReturnNothing() {
 
         int amount = 1000;
